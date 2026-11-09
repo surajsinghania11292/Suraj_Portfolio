@@ -4,7 +4,7 @@
    ═══════════════════════════════════════════════════════════════ */
 
 const GitHub = (() => {
-  const USERNAME = "surajkumar11292";
+  const USERNAME = "surajsinghania11292";
   const API_BASE = "https://api.github.com";
 
   /* ══════════════════════════════════════════════════════════════
@@ -172,7 +172,7 @@ const GitHub = (() => {
         },
         {
           type: "PushEvent",
-          repo: "Suraj_Portfolio.io",
+          repo: "Suraj_Portfolio",
           msg: "fine-tuned Lighthouse performance and responsive layouts",
           time: "recently",
         },

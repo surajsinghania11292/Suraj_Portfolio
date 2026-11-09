@@ -44,9 +44,9 @@ const ContactForm = (() => {
     submitBtn.textContent = loading ? 'Sending…' : 'Send Message';
   }
 
-  /* ── DIRECT EMAIL SEND (Delivers to surajkumar11292@gmail.com) ──── */
+  /* ── DIRECT EMAIL SEND (Delivers to surajsinghania11292@gmail.com) ──── */
   async function sendDirectToEmail(data) {
-    const response = await fetch('https://formsubmit.co/ajax/surajkumar11292@gmail.com', {
+    const response = await fetch('https://formsubmit.co/ajax/surajsinghania11292@gmail.com', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',
@@ -77,7 +77,7 @@ const ContactForm = (() => {
       `Name: ${data.name}\nEmail: ${data.email}\n\n${data.message}`
     );
     const subject = encodeURIComponent(`Portfolio Message: ${data.subject}`);
-    window.open(`https://mail.google.com/mail/?view=cm&fs=1&to=surajkumar11292@gmail.com&su=${subject}&body=${body}`, '_blank');
+    window.open(`https://mail.google.com/mail/?view=cm&fs=1&to=surajsinghania11292@gmail.com&su=${subject}&body=${body}`, '_blank');
   }
 
   /* ── SUBMIT HANDLER ────────────────────────────────────────── */

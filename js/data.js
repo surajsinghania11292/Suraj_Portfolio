@@ -21,9 +21,9 @@ const PORTFOLIO_DATA = {
 
   /* ── CONTACT ───────────────────────────────────────────────── */
   contact: {
-    email: "surajkumar11292@gmail.com",
+    email: "surajsinghania11292@gmail.com",
     phone: "+91 7258025793",
-    github: "https://github.com/surajkumar11292",
+    github: "https://github.com/surajsinghania11292",
     linkedin: "https://www.linkedin.com/in/suraj-kumar-1b9a65250/",
     location: "Bengaluru, India",
   },
@@ -80,7 +80,7 @@ const PORTFOLIO_DATA = {
   /* ── CURRENTLY BUILDING ────────────────────────────────────── */
   currentlyBuilding: {
     title: "TrainTravel — Distributed Railway Reservation System",
-    github: "https://github.com/surajkumar11292/TrainTravel",
+    github: "https://github.com/surajsinghania11292/TrainTravel",
     desc: "Building a scalable microservices railway booking platform with Kafka event streams, Redis distributed seat locks with TTL auto-expiry, Elasticsearch fast station search, and Saga transaction choreography across 8 services.",
     stack: ["React", "Node.js", "Kafka", "Redis", "PostgreSQL", "Prisma", "Elasticsearch", "Docker"],
     startedMonth: "Aug 2026",
@@ -104,7 +104,7 @@ const PORTFOLIO_DATA = {
       featured: true,
       hero: true,
       tags: ["React", "Node.js", "Kafka", "Redis", "PostgreSQL", "Prisma", "Elasticsearch", "Docker"],
-      github: "https://github.com/surajkumar11292/TrainTravel",
+      github: "https://github.com/surajsinghania11292/TrainTravel",
       repo: "TrainTravel",
       demo: "",
       casestudy: {
@@ -133,8 +133,8 @@ const PORTFOLIO_DATA = {
       featured: true,
       hero: true,
       tags: ["HTML5", "CSS3", "JavaScript", "Vercel", "SEO"],
-      github: "https://github.com/surajkumar11292/Suraj_Portfolio.io",
-      repo: "Suraj_Portfolio.io",
+      github: "https://github.com/surajsinghania11292/Suraj_Portfolio",
+      repo: "Suraj_Portfolio",
       demo: "https://suraj-portfolio-io.vercel.app/",
       casestudy: {
         problem:
@@ -162,7 +162,7 @@ const PORTFOLIO_DATA = {
       featured: true,
       hero: true,
       tags: ["React", "Node.js", "Socket.io", "Docker", "Clerk", "ImageKit", "MongoDB"],
-      github: "https://github.com/surajkumar11292/Chat-App",
+      github: "https://github.com/surajsinghania11292/Chat-App",
       repo: "Chat-App",
       demo: "https://chat-app-nl36.onrender.com",
       casestudy: {
@@ -191,7 +191,7 @@ const PORTFOLIO_DATA = {
       featured: true,
       hero: true,
       tags: ["React", "WebRTC", "WebSockets", "Express.js", "Vercel"],
-      github: "https://github.com/surajkumar11292/NoShare",
+      github: "https://github.com/surajsinghania11292/NoShare",
       repo: "NoShare",
       demo: "https://no-share.vercel.app",
       casestudy: {
@@ -220,7 +220,7 @@ const PORTFOLIO_DATA = {
       featured: true,
       hero: true,
       tags: ["React", "Node.js", "MongoDB", "Gemini AI", "JWT", "Twilio MFA", "RBAC"],
-      github: "https://github.com/surajkumar11292/Police_Documentation",
+      github: "https://github.com/surajsinghania11292/Police_Documentation",
       repo: "Police_Documentation",
       demo: "https://digital-record-portal.vercel.app",
       casestudy: {
@@ -249,7 +249,7 @@ const PORTFOLIO_DATA = {
       featured: true,
       hero: true,
       tags: ["React", "Node.js", "Express.js", "MongoDB", "JWT", "Bcrypt", "Vercel"],
-      github: "https://github.com/surajkumar11292/Swiss_Bank",
+      github: "https://github.com/surajsinghania11292/Swiss_Bank",
       repo: "Swiss_Bank",
       demo: "https://swiss-bank-zeta.vercel.app/",
       casestudy: {

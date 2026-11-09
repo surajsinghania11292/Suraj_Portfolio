@@ -34,7 +34,7 @@
     console.info(
       '%cSuraj Kumar — Portfolio%c\n' +
       'Built with vanilla HTML/CSS/JS.\n' +
-      'github.com/surajkumar11292',
+      'github.com/surajsinghania11292',
       'color:#004743;font-weight:bold;font-size:14px;',
       'color:#888;font-size:11px;'
     );

@@ -42,11 +42,11 @@ Built with a focus on performance, aesthetics, and modern developer experience. 
 
 ## 📁 Featured Projects
 
-1. **[Swiss Bank](https://swiss-bank-zeta.vercel.app/)** ([GitHub Repo](https://github.com/surajkumar11292/Swiss_Bank)) — Security-focused fintech digital banking web application with 256-bit AES encryption, MFA vault authentication, atomic fund transfers, and real-time ledger verification.
-2. **[Chat-App](https://chat-app-nl36.onrender.com)** ([GitHub Repo](https://github.com/surajkumar11292/Chat-App)) — Real-time MERN messaging ecosystem with Socket.io, Docker containerization, Clerk Webhooks, and ImageKit media optimization.
-3. **[NoShare](https://no-share.vercel.app)** ([GitHub Repo](https://github.com/surajkumar11292/NoShare)) — Serverless peer-to-peer file transfer platform using WebRTC data channels — zero server storage with 60% lower latency.
-4. **[Police-Documentation](https://digital-record-portal.vercel.app)** ([GitHub Repo](https://github.com/surajkumar11292/Police_Documentation)) — AI-powered police archival management portal with Gemini 1.5 document parsing, Twilio MFA, RBAC, and SHA-256 integrity verification.
-5. **[Personal Portfolio](https://suraj-portfolio-io.vercel.app/)** ([GitHub Repo](https://github.com/surajkumar11292/Suraj_Portfolio.io)) — High-performance developer portfolio scoring 95+ on Google Lighthouse with dark/light themes and terminal mode.
+1. **[Swiss Bank](https://swiss-bank-zeta.vercel.app/)** ([GitHub Repo](https://github.com/surajsinghania11292/Swiss_Bank)) — Security-focused fintech digital banking web application with 256-bit AES encryption, MFA vault authentication, atomic fund transfers, and real-time ledger verification.
+2. **[Chat-App](https://chat-app-nl36.onrender.com)** ([GitHub Repo](https://github.com/surajsinghania11292/Chat-App)) — Real-time MERN messaging ecosystem with Socket.io, Docker containerization, Clerk Webhooks, and ImageKit media optimization.
+3. **[NoShare](https://no-share.vercel.app)** ([GitHub Repo](https://github.com/surajsinghania11292/NoShare)) — Serverless peer-to-peer file transfer platform using WebRTC data channels — zero server storage with 60% lower latency.
+4. **[Police-Documentation](https://digital-record-portal.vercel.app)** ([GitHub Repo](https://github.com/surajsinghania11292/Police_Documentation)) — AI-powered police archival management portal with Gemini 1.5 document parsing, Twilio MFA, RBAC, and SHA-256 integrity verification.
+5. **[Personal Portfolio](https://suraj-portfolio-io.vercel.app/)** ([GitHub Repo](https://github.com/surajsinghania11292/Suraj_Portfolio)) — High-performance developer portfolio scoring 95+ on Google Lighthouse with dark/light themes and terminal mode.
 
 ---
 
@@ -93,8 +93,8 @@ MyPortfolio/
 
 1. **Clone the repository:**
    ```bash
-   git clone https://github.com/surajkumar11292/Suraj_Portfolio.io.git
-   cd Suraj_Portfolio.io
+   git clone https://github.com/surajsinghania11292/Suraj_Portfolio.git
+   cd Suraj_Portfolio
    ```
 
 2. **Install dependencies:**
@@ -122,8 +122,8 @@ MyPortfolio/
 ## 📬 Contact & Connect
 
 - **Portfolio:** [suraj-portfolio-io.vercel.app](https://suraj-portfolio-io.vercel.app/)
-- **Email:** [surajkumar11292@gmail.com](https://mail.google.com/mail/?view=cm&fs=1&to=surajkumar11292@gmail.com)
-- **GitHub:** [@surajkumar11292](https://github.com/surajkumar11292)
+- **Email:** [surajsinghania11292@gmail.com](https://mail.google.com/mail/?view=cm&fs=1&to=surajsinghania11292@gmail.com)
+- **GitHub:** [@surajsinghania11292](https://github.com/surajsinghania11292)
 - **LinkedIn:** [Suraj Kumar](https://www.linkedin.com/in/suraj-kumar-1b9a65250/)
 
 ---
