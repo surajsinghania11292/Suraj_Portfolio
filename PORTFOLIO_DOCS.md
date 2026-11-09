@@ -1,6 +1,6 @@
 # Portfolio Documentation — Complete File Reference
 
-### Arman Ahemad Khan · arman080325.github.io
+### Suraj Kumar · surajsinghania11292.github.io
 
 ---
 
@@ -90,7 +90,7 @@ bio: [
 contact: {
   email:    "armankhan082020@gmail.com",  // Used in nav CTA, contact strip, form mailto fallback
   phone:    "+91 9114421034",             // Shown in hero contact strip + contact section
-  github:   "https://github.com/arman080325",   // GitHub button links + activity feed username
+  github:   "https://github.com/surajsinghania11292",   // GitHub button links + activity feed username
   linkedin: "https://linkedin.com/in/arman-ahemad-khan",
   location: "Bhubaneswar, Odisha, India"  // Shown in contact info section
 }
@@ -160,7 +160,7 @@ projects: [
     period:   "Nov–Dec 2025",
     featured: false,                   // Set true to make this card span 2 columns
     tags:     ["Python", "XGBoost"],   // Tech pills on card + in modal
-    github:   "https://github.com/arman080325",  // Button link in modal
+    github:   "https://github.com/surajsinghania11292",  // Button link in modal
 
     casestudy: {
       problem:    "The problem you solved...",
@@ -250,7 +250,7 @@ blog: [
     summary: "Breaking down how attackers compromise build pipelines...",
     platform: "Hashnode",
     date: "Upcoming",
-    url: "https://hashnode.com/@arman080325",
+    url: "https://hashnode.com/@surajsinghania11292",
     notifyText: "Notify on Hashnode ↗",
     tags: ["Supply Chain", "CI/CD Security"],
     readTime: "10 min read",
@@ -756,7 +756,7 @@ Then add `techDeepDive: "Your explanation..."` to the `casestudy` object in `dat
 
 ```js
 // Line 4 of github.js:
-const USERNAME = 'arman080325';   // ← change this
+const USERNAME = 'surajsinghania11292';   // ← change this
 ```
 
 ### Changing how many activities are shown
@@ -889,7 +889,7 @@ In `data.js`, inside the `projects` array, add a new object. Copy this template:
   period:   "Jan–Feb 2026",
   featured: false,
   tags:     ["React", "Node.js", "MongoDB"],
-  github:   "https://github.com/arman080325/my-repo",
+  github:   "https://github.com/surajsinghania11292/my-repo",
   casestudy: {
     problem:    "What problem you solved...",
     approach:   "How you built it...",
@@ -939,10 +939,10 @@ of those three variables to match your new color's RGB values.
 
 ### Host on GitHub Pages
 
-1. Rename your folder to your GitHub username repo: `arman080325.github.io`
-2. Push all files to a GitHub repo named `arman080325.github.io`
+1. Rename your folder to your GitHub username repo: `surajsinghania11292.github.io`
+2. Push all files to a GitHub repo named `surajsinghania11292.github.io`
 3. In Settings → Pages, set source to `main` branch, `/ (root)`
-4. Your portfolio will be live at `https://arman080325.github.io`
+4. Your portfolio will be live at `https://surajsinghania11292.github.io`
 
 ### Add Google Analytics
 
@@ -980,7 +980,7 @@ Replace `G-XXXXXXXXXX` with your Measurement ID from Google Analytics.
 ### 11c. High-Impact Strategies to Increase Portfolio Reach & Inbound Inquiries
 
 1. **GitHub Profile Readme Integration**:
-   - Add a high-visibility badge or banner at the top of your GitHub profile (`https://github.com/arman080325/arman080325`):
+   - Add a high-visibility badge or banner at the top of your GitHub profile (`https://github.com/surajsinghania11292/surajsinghania11292`):
      `[![Portfolio](https://img.shields.io/badge/Portfolio-arman--portfolio.online-004743?style=for-the-badge&logo=google-chrome&logoColor=white)](https://www.arman-portfolio.online/)`
    - Include direct links to live projects in repository descriptions and "About" website fields.
 2. **Cross-Publishing on Dev.to and Hashnode**:
