@@ -5,7 +5,7 @@
 **Production-grade, highly interactive personal portfolio showcasing full-stack engineering, distributed systems, real-time protocols, and generative AI integration.**  
 Built with a focus on extreme performance, luxury Swiss-minimalist aesthetics, and modern developer experience. Features an in-browser interactive terminal emulator, animated project architectural showcases, and an intelligent context-aware AI assistant powered by Google Gemini.
 
-[![Live Demo](https://img.shields.io/badge/Live_Demo-suraj--portfolio--io.vercel.app-004743?style=for-the-badge&logo=vercel)](https://suraj-portfolio-io.vercel.app/)
+[![Live Demo](https://img.shields.io/badge/Live_Demo-suraj--portfolio--99.vercel.app-004743?style=for-the-badge&logo=vercel)](https://suraj-portfolio-99.vercel.app/)
 [![License](https://img.shields.io/badge/License-MIT-E6C79C?style=for-the-badge)](LICENSE)
 [![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)](https://developer.mozilla.org/en-US/docs/Web/HTML)
 [![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)](https://developer.mozilla.org/en-US/docs/Web/CSS)
@@ -89,7 +89,7 @@ This repository houses the source code for my personal engineering portfolio. Un
 4. **[Chat-App](https://chat-app-nl36.onrender.com)** ([GitHub Repo](https://github.com/surajsinghania11292/Chat-App))  
    *Real-time MERN messaging ecosystem with Socket.io, Docker containerization, Clerk Webhooks, and ImageKit media optimization.*
 
-5. **[Personal Portfolio](https://suraj-portfolio-io.vercel.app/)** ([GitHub Repo](https://github.com/surajsinghania11292/Suraj_Portfolio))  
+5. **[Personal Portfolio](https://suraj-portfolio-99.vercel.app/)** ([GitHub Repo](https://github.com/surajsinghania11292/Suraj_Portfolio))  
    *High-performance developer portfolio scoring 95+ on Google Lighthouse with dark/light/terminal themes and an integrated Gemini assistant.*
 
 ---
@@ -167,7 +167,7 @@ Suraj_Portfolio/
 
 ## 📬 Contact & Connect
 
-- **Portfolio:** [suraj-portfolio-io.vercel.app](https://suraj-portfolio-io.vercel.app/)
+- **Portfolio:** [suraj-portfolio-99.vercel.app](https://suraj-portfolio-99.vercel.app/)
 - **Email:** [surajsinghania11292@gmail.com](mailto:surajsinghania11292@gmail.com)
 - **GitHub:** [@surajsinghania11292](https://github.com/surajsinghania11292)
 - **LinkedIn:** [Suraj Kumar](https://www.linkedin.com/in/suraj-kumar-1b9a65250/)

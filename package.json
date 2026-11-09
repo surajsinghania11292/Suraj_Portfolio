@@ -16,7 +16,7 @@
   "bugs": {
     "url": "https://github.com/surajsinghania11292/Suraj_Portfolio/issues"
   },
-  "homepage": "https://suraj-portfolio-io.vercel.app",
+  "homepage": "https://suraj-portfolio-99.vercel.app",
   "dependencies": {
     "@google/genai": "^2.17.1",
     "@upstash/ratelimit": "^2.0.8",

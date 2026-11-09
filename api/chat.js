@@ -86,7 +86,7 @@ module.exports = async function handler(req, res) {
       const url = new URL(origin);
       const h = url.hostname;
       const ok = h === 'localhost' || h === '127.0.0.1' ||
-                 h === 'suraj-portfolio-io.vercel.app' || h.endsWith('.suraj-portfolio-io.vercel.app') ||
+                 h === 'suraj-portfolio-99.vercel.app' || h.endsWith('.suraj-portfolio-99.vercel.app') ||
                  h.endsWith('.vercel.app');
       if (!ok) {
         return res.status(403).json({ error: 'Forbidden' });

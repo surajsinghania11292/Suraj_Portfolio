@@ -285,7 +285,7 @@ const PF_HERO = `
           <circle class="pf-dot pf-dot-r" cx="38" cy="57" r="3.2"/>
           <circle class="pf-dot pf-dot-y" cx="48" cy="57" r="3.2"/>
           <circle class="pf-dot pf-dot-g" cx="58" cy="57" r="3.2"/>
-          <text class="pf-url-text" x="128" y="61" font-size="8.5">🔒 suraj-portfolio-io.vercel.app</text>
+          <text class="pf-url-text" x="128" y="61" font-size="8.5">🔒 suraj-portfolio-99.vercel.app</text>
 
           <g class="pf-device pf-device-desktop" transform="translate(46,80)">
             <rect class="pf-screen" x="0" y="0" width="78" height="50" rx="4"/>
@@ -314,7 +314,7 @@ const PF_HERO = `
             <path class="ph-check" style="animation-delay:0.6s" d="M139 178 l3 4 l7 -8"/>
           </g>
         </svg>
-        <a class="ph-live" href="https://suraj-portfolio-io.vercel.app/" target="_blank" rel="noopener noreferrer">▶ View live site</a>
+        <a class="ph-live" href="https://suraj-portfolio-99.vercel.app/" target="_blank" rel="noopener noreferrer">▶ View live site</a>
       </div>`;
 
 const CHAT_HERO = `

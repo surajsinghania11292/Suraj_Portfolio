@@ -135,7 +135,7 @@ const PORTFOLIO_DATA = {
       tags: ["HTML5", "CSS3", "JavaScript", "Vercel", "SEO"],
       github: "https://github.com/surajsinghania11292/Suraj_Portfolio",
       repo: "Suraj_Portfolio",
-      demo: "https://suraj-portfolio-io.vercel.app/",
+      demo: "https://suraj-portfolio-99.vercel.app/",
       casestudy: {
         problem:
           "Creating a developer portfolio that stands out visually with animations, glassmorphism, and responsive interactivity — without relying on heavy frameworks that hurt Lighthouse performance or introduce cold starts.",
@@ -147,7 +147,7 @@ const PORTFOLIO_DATA = {
           "Building fully accessible modals, responsive layouts, and interactive components with zero external framework dependencies",
         ],
         outcome:
-          "A live, high-performance personal portfolio at suraj-portfolio-io.vercel.app with 95+ Lighthouse performance scores, instant page loads, and responsive design across all screen sizes.",
+          "A live, high-performance personal portfolio at suraj-portfolio-99.vercel.app with 95+ Lighthouse performance scores, instant page loads, and responsive design across all screen sizes.",
         lessons:
           "Vanilla web technologies, when architected properly with modular component patterns, deliver superior performance and load speeds compared to heavy client-side JavaScript bundles.",
       },

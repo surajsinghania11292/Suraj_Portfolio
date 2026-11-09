@@ -284,7 +284,7 @@ const Terminal = (() => {
         `  ${g('          .\'\'.\'.\'')}         ${b(g('suraj') + c('@') + g('portfolio'))}`,
         `  ${g('        .\' .  \'.\'.\'.')}     ${d('─────────────────────────')}`,
         `  ${g('       /  .\'  . \\.')}       ${y('OS')}      Portfolio v1.0`,
-        `  ${g('      . \'  .\'  . .')}       ${y('Host')}    suraj-portfolio-io.vercel.app`,
+        `  ${g('      . \'  .\'  . .')}       ${y('Host')}    suraj-portfolio-99.vercel.app`,
         `  ${g('      \'  .\'  .\'  .')}       ${y('Kernel')}  Vanilla JS`,
         `  ${g('     .  /   \\  .\'.')}       ${y('Shell')}   terminal.js`,
         `  ${g('     \'. \\   / .\'.')}        ${y('DE')}      Custom Portfolio UI`,
