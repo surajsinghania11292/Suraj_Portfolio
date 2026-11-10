@@ -7,16 +7,16 @@ const PORTFOLIO_DATA = {
   /* ── PERSONAL INFO ─────────────────────────────────────────── */
   name: "Suraj Kumar",
   shortName: "Suraj",
-  title: "Full-Stack Developer · React · Node.js",
-  tagline: "Full-Stack Software Engineer, Bengaluru",
+  title: "Software Engineer · MERN & Distributed Systems",
+  tagline: "Software Engineer Intern, Bengaluru",
   bio: [
-    "I'm a Full-Stack Software Engineer based in Bengaluru with hands-on professional experience building <span class='about-highlight'>production-grade web applications</span> using the <span class='about-highlight'>MERN stack</span> — from school management portals to real-time messaging ecosystems.",
+    "I'm a Software Engineer based in Bengaluru with 6 months of hands-on internship experience at <em>Earth Services</em> building <span class='about-highlight'>production web features with the MERN stack</span> and developing high-scale distributed side projects like TrainTravel.",
 
-    "I specialize in architecting end-to-end systems: responsive React frontends, scalable Node.js backends, secure REST APIs with JWT & RBAC, and real-time features via WebSockets and WebRTC. I've shipped features used by real users at <em>Earth Services</em>, integrated AI APIs (Gemini 1.5 Flash), and built P2P file-sharing platforms with zero server storage cost.",
+    "During my internship, I worked closely with senior engineers to deliver responsive React frontends, streamline RESTful endpoints in Node.js/Express, and resolve frontend performance bottlenecks. Beyond my internship, I dive deep into distributed architectures — building microservices with Apache Kafka, Redis distributed seat locks, and WebRTC P2P systems.",
 
-    "I believe in <em>shipping fast, iterating faster</em>. Every project in this portfolio started with a real problem — and ended with something deployed and working in production.",
+    "I believe in <em>continuous learning, clean code, and shipping real projects</em>. Every project in this portfolio represents practical problem solving from concept to live deployment.",
   ],
-  availability: "Open to Full-Stack & Software Engineer Roles",
+  availability: "Open to Software Engineer & Developer Roles",
   resumeUrl: "assets/Suraj_Kumar_Resume.pdf",
 
   /* ── CONTACT ───────────────────────────────────────────────── */
@@ -30,8 +30,8 @@ const PORTFOLIO_DATA = {
 
   /* ── STATS ─────────────────────────────────────────────────── */
   stats: [
-    { num: "1+", label: "Year Experience" },
-    { num: "5+", label: "Projects Shipped" },
+    { num: "6 Mo", label: "Intern Experience" },
+    { num: "4", label: "Core Projects" },
     { num: "12+", label: "Tech Stack" },
     { num: "100%", label: "Production Deploys" },
   ],
@@ -52,27 +52,27 @@ const PORTFOLIO_DATA = {
   experience: [
     {
       id: "earth-services-2024",
-      role: "Full-Stack Software Engineer",
+      role: "Software Engineer Intern",
       company: "Earth Services",
-      period: "Nov 2024 — Mar 2026",
-      duration: "16 months",
+      period: "Oct 2025 — Mar 2026",
+      duration: "6 months",
       bullets: [
-        "Developed and maintained features for school management portals and internal CRMs using the MERN stack (MongoDB, Express.js, React.js, Node.js)",
-        "Built responsive student and admin dashboard screens using React.js and Tailwind CSS, streamlining admissions and attendance workflows for school staff",
-        "Created RESTful APIs to handle multi-step form submissions, securely storing and retrieving institutional records using MongoDB and Mongoose schemas",
-        "Implemented secure login systems utilizing JWT (JSON Web Tokens) and Role-Based Access Control (RBAC) to ensure strict data privacy across admin, teacher, and student views",
-        "Integrated Socket.io to push live event updates to admin dashboards and assisted in configuring Razorpay webhooks for automated online fee collection status tracking",
+        "Collaborated with senior engineers to develop and maintain responsive UI components for school management dashboards using React.js and Tailwind CSS",
+        "Assisted in building and documenting modular RESTful API endpoints with Node.js, Express.js, and MongoDB for student record lookups and form submissions",
+        "Investigated, debugged, and resolved 25+ frontend bug tickets, improving cross-browser responsiveness and UI rendering speeds across mobile and desktop views",
+        "Assisted senior backend engineers in integrating JWT authentication checks and basic role verification for student and staff portals",
+        "Wrote reusable utility functions, form validation handlers, and assisted in testing API routes with Postman prior to staging releases",
       ],
       tags: [
         "React.js",
         "Node.js",
         "Express.js",
         "MongoDB",
-        "Socket.io",
-        "JWT",
-        "RBAC",
+        "JavaScript",
         "Tailwind CSS",
-        "Razorpay",
+        "REST APIs",
+        "Git",
+        "Postman",
       ],
     },
   ],
@@ -99,7 +99,7 @@ const PORTFOLIO_DATA = {
       category: "Full-Stack · Microservices · Distributed Systems",
       title: "TrainTravel — Scalable Train Reservation Platform",
       desc: "A production-grade microservices railway ticketing platform featuring 8 decoupled services, Apache Kafka asynchronous event streaming, Redis distributed seat locking with TTL auto-expiry, Elasticsearch low-latency route discovery, and Saga transaction choreography.",
-      metric: "8 Microservices · Kafka Streams · Redis Distributed Locking",
+      metric: "★ Flagship Architecture · 8 Microservices · Kafka Streams · Redis Locking",
       period: "2026",
       featured: true,
       hero: true,
@@ -124,14 +124,72 @@ const PORTFOLIO_DATA = {
       },
     },
     {
+      id: "swiss-bank",
+      category: "Full-Stack · Fintech · Security",
+      title: "Swiss Bank — Secure NetBanking & Vault System",
+      desc: "A production-grade digital banking web application with multi-layered transaction security, end-to-end 256-bit AES encryption, role-based vault authorization, real-time balance calculations, and simulated fund transfers with cryptographic audit logs.",
+      metric: "256-Bit AES · MFA Vault · Real-Time Ledger",
+      period: "2025",
+      featured: false,
+      hero: false,
+      tags: ["React", "Node.js", "Express.js", "MongoDB", "JWT", "Bcrypt", "Vercel"],
+      github: "https://github.com/surajsinghania11292/Swiss_Bank",
+      repo: "Swiss_Bank",
+      demo: "https://swiss-bank-99.vercel.app",
+      casestudy: {
+        problem:
+          "Designing a high-security online banking interface that demonstrates robust financial transaction flows, role-based permissions, and fraud prevention mechanisms without introducing high client-side latency.",
+        approach:
+          "Engineered a full-stack MERN banking ecosystem with protected API endpoints, JWT-based session security, and Bcrypt password hashing. Implemented simulated atomic fund transfer logic with double-entry balance verification to prevent race conditions. Designed an interactive banking dashboard with real-time balance charts, beneficiary management, and instant transfer receipt generation.",
+        challenges: [
+          "Ensuring transaction integrity across simulated simultaneous debit and credit operations",
+          "Designing an intuitive, responsive fintech interface with strict input validation and card number formatting",
+          "Implementing tamper-evident audit logging for all account transactions and authentication attempts",
+        ],
+        outcome:
+          "A live fintech banking web application deployed at swiss-bank-99.vercel.app with instant fund transfers, 256-bit security visualizers, and responsive account analytics.",
+        lessons:
+          "Financial architectures require strict transactional consistency and server-side balance validation at every stage to prevent state desynchronization.",
+      },
+    },
+    {
+      id: "noshare",
+      category: "Full-Stack · P2P · WebRTC",
+      title: "NoShare — Decentralized P2P File Transfer",
+      desc: "A serverless file-sharing platform using WebRTC data channels — no server storage, no uploads, just pure peer-to-peer transfer. Reduced transfer latency by 60% vs. traditional server-relay approaches. Features a custom Express.js signaling server with in-memory IP rate limiting.",
+      metric: "60% lower latency · Zero server storage",
+      period: "2025",
+      featured: false,
+      hero: false,
+      tags: ["React", "WebRTC", "WebSockets", "Express.js", "Render"],
+      github: "https://github.com/surajsinghania11292/NoShare",
+      repo: "NoShare",
+      demo: "https://noshare.onrender.com",
+      casestudy: {
+        problem:
+          "Traditional file sharing requires uploading to a server, waiting, then downloading — adding latency, cost, and privacy risk. For direct peer sharing, this is unnecessary overhead.",
+        approach:
+          "Engineered a fully serverless architecture using WebRTC data channels for direct browser-to-browser file transfer — no server ever touches the file bytes. Built an Express.js signaling server to handle WebRTC offer/answer exchange and ICE candidate negotiation. Added an in-memory IP rate limiter to throttle room handshakes and block DDoS flood vectors. Developed custom React hooks (useWebRTC, useSocket) to dynamically render real-time P2P connection states and file transfer progress.",
+        challenges: [
+          "Handling NAT traversal for users behind firewalls — solved with STUN servers and ICE candidate exchange through the signaling layer",
+          "Streaming large files over WebRTC data channels without memory overflow — implemented chunked transfer with progress tracking",
+          "Designing the rate limiter to block abuse without breaking legitimate multi-room use cases",
+        ],
+        outcome:
+          "A live, fully serverless P2P file sharing platform at noshare.onrender.com — files transfer directly between browsers with zero server storage cost and 60% lower latency than server-relay alternatives.",
+        lessons:
+          "WebRTC's complexity hides behind the ICE negotiation — once you understand STUN/TURN and the offer/answer flow, the data channel itself is surprisingly clean. Custom hooks were the right abstraction for managing the connection lifecycle in React.",
+      },
+    },
+    {
       id: "portfolio-site",
       category: "Frontend · Performance",
       title: "Personal Portfolio Website",
       desc: "A responsive developer portfolio scoring 95+ on Google Lighthouse across all categories, with dark/light themes, terminal emulator, SEO optimization, and fine-tuned performance. Live on Vercel.",
       metric: "95+ Lighthouse · Sub-second CDN",
       period: "2026",
-      featured: true,
-      hero: true,
+      featured: false,
+      hero: false,
       tags: ["HTML5", "CSS3", "JavaScript", "Vercel", "SEO"],
       github: "https://github.com/surajsinghania11292/Suraj_Portfolio",
       repo: "Suraj_Portfolio",
@@ -150,122 +208,6 @@ const PORTFOLIO_DATA = {
           "A live, high-performance personal portfolio at suraj-portfolio-99.vercel.app with 95+ Lighthouse performance scores, instant page loads, and responsive design across all screen sizes.",
         lessons:
           "Vanilla web technologies, when architected properly with modular component patterns, deliver superior performance and load speeds compared to heavy client-side JavaScript bundles.",
-      },
-    },
-    {
-      id: "chatapp",
-      category: "Full-Stack · Real-Time",
-      title: "Chat-App — Real-Time Messaging Ecosystem",
-      desc: "A production-grade MERN messaging application containerized with Docker, with bidirectional Socket.io communication for real-time delivery, Clerk Webhooks for async user profile sync, and ImageKit for optimized rich-media loading.",
-      metric: "Real-Time · Docker · WebSockets",
-      period: "2025",
-      featured: true,
-      hero: true,
-      tags: ["React", "Node.js", "Socket.io", "Docker", "Clerk", "ImageKit", "MongoDB"],
-      github: "https://github.com/surajsinghania11292/Chat-App",
-      repo: "Chat-App",
-      demo: "https://chat-app-nl36.onrender.com",
-      casestudy: {
-        problem:
-          "Building a real-time chat application that works reliably in production — handling bidirectional communication, user profile sync across services, and rich media — without cold-start latency killing the demo experience.",
-        approach:
-          "Containerized the full MERN stack with Docker for consistent deployments. Used Socket.io for bidirectional real-time message delivery. Integrated Clerk Webhooks to asynchronously sync user profile changes across services without blocking the main request path. Optimized image and media loading through ImageKit API. Configured automated cron job background workers to keep the Render backend warm 24/7, eliminating cold-start latency.",
-        challenges: [
-          "Keeping WebSocket connections stable across container restarts and Render's ephemeral instances",
-          "Synchronizing Clerk's user profile events asynchronously without creating race conditions in the chat feed",
-          "Eliminating cold-start delays on Render's free tier — solved with a keep-warm cron job pinging the health endpoint",
-        ],
-        outcome:
-          "A fully deployed, containerized real-time messaging app live at chat-app-nl36.onrender.com with persistent messages, real-time delivery indicators, and rich media support.",
-        lessons:
-          "Containerizing early — even for a side project — forces you to think about environment parity, port configuration, and production readiness from day one instead of scrambling before deployment.",
-      },
-    },
-    {
-      id: "noshare",
-      category: "Full-Stack · P2P · WebRTC",
-      title: "NoShare — Decentralized P2P File Transfer",
-      desc: "A serverless file-sharing platform using WebRTC data channels — no server storage, no uploads, just pure peer-to-peer transfer. Reduced transfer latency by 60% vs. traditional server-relay approaches. Features a custom Express.js signaling server with in-memory IP rate limiting.",
-      metric: "60% lower latency · Zero server storage",
-      period: "2025",
-      featured: true,
-      hero: true,
-      tags: ["React", "WebRTC", "WebSockets", "Express.js", "Vercel"],
-      github: "https://github.com/surajsinghania11292/NoShare",
-      repo: "NoShare",
-      demo: "https://no-share.vercel.app",
-      casestudy: {
-        problem:
-          "Traditional file sharing requires uploading to a server, waiting, then downloading — adding latency, cost, and privacy risk. For direct peer sharing, this is unnecessary overhead.",
-        approach:
-          "Engineered a fully serverless architecture using WebRTC data channels for direct browser-to-browser file transfer — no server ever touches the file bytes. Built an Express.js signaling server to handle WebRTC offer/answer exchange and ICE candidate negotiation. Added an in-memory IP rate limiter to throttle room handshakes and block DDoS flood vectors. Developed custom React hooks (useWebRTC, useSocket) to dynamically render real-time P2P connection states and file transfer progress.",
-        challenges: [
-          "Handling NAT traversal for users behind firewalls — solved with STUN servers and ICE candidate exchange through the signaling layer",
-          "Streaming large files over WebRTC data channels without memory overflow — implemented chunked transfer with progress tracking",
-          "Designing the rate limiter to block abuse without breaking legitimate multi-room use cases",
-        ],
-        outcome:
-          "A live, fully serverless P2P file sharing platform at no-share.vercel.app — files transfer directly between browsers with zero server storage cost and 60% lower latency than server-relay alternatives.",
-        lessons:
-          "WebRTC's complexity hides behind the ICE negotiation — once you understand STUN/TURN and the offer/answer flow, the data channel itself is surprisingly clean. Custom hooks were the right abstraction for managing the connection lifecycle in React.",
-      },
-    },
-    {
-      id: "police-documentation",
-      category: "Full-Stack · AI",
-      title: "Police-Documentation — AI-Powered Record Management",
-      desc: "An archival portal for police record management with Role-Based Access Control (RBAC), admin approval workflows, and automated audit logging. Integrates Gemini 1.5 Flash to parse multi-format documents (PDFs/images) and extract structured case metadata. Secured with Twilio MFA, JWT, and SHA-256 document integrity verification.",
-      metric: "AI-Powered · RBAC · MFA · Audit Logs",
-      period: "2025",
-      featured: true,
-      hero: true,
-      tags: ["React", "Node.js", "MongoDB", "Gemini AI", "JWT", "Twilio MFA", "RBAC"],
-      github: "https://github.com/surajsinghania11292/Police_Documentation",
-      repo: "Police_Documentation",
-      demo: "https://digital-record-portal.vercel.app",
-      casestudy: {
-        problem:
-          "Police record management is often paper-based or relies on fragmented digital systems without proper access control, audit trails, or the ability to process multi-format documents efficiently.",
-        approach:
-          "Built a full archival portal with role-based access control separating admin, officer, and read-only views. Integrated Gemini 1.5 Flash API to automatically parse uploaded PDFs and images, extracting structured case metadata (dates, names, case numbers) directly into HTML form fields — eliminating manual data entry. Implemented a complete security stack: Twilio Verify for SMS-based MFA, JWT for session authorization, and SHA-256 cryptographic hashing to verify document integrity and detect tampering. Admin approval workflows ensure no record goes live without review.",
-        challenges: [
-          "Making Gemini's document parsing output reliably map to a structured form schema — solved with prompt engineering and response validation",
-          "Designing RBAC that scales cleanly: permissions are checked server-side on every route, not just hidden in the frontend",
-          "SHA-256 document integrity verification — hashes computed at upload time and re-verified on every access to detect tampering",
-        ],
-        outcome:
-          "A fully deployed archival portal at digital-record-portal.vercel.app with AI document parsing, MFA-protected login, role-based dashboards, and cryptographic document integrity verification.",
-        lessons:
-          "AI integrations are only as good as their validation layer. Gemini's output needed strict post-processing to be useful — raw LLM responses are not production-ready without schema validation and fallback handling.",
-      },
-    },
-    {
-      id: "swiss-bank",
-      category: "Full-Stack · Fintech · Security",
-      title: "Swiss Bank — Secure NetBanking & Vault System",
-      desc: "A production-grade digital banking web application with multi-layered transaction security, end-to-end 256-bit AES encryption, role-based vault authorization, real-time balance calculations, and simulated fund transfers with cryptographic audit logs.",
-      metric: "256-Bit AES · MFA Vault · Real-Time Ledger",
-      period: "2025",
-      featured: true,
-      hero: true,
-      tags: ["React", "Node.js", "Express.js", "MongoDB", "JWT", "Bcrypt", "Vercel"],
-      github: "https://github.com/surajsinghania11292/Swiss_Bank",
-      repo: "Swiss_Bank",
-      demo: "https://swiss-bank-zeta.vercel.app/",
-      casestudy: {
-        problem:
-          "Designing a high-security online banking interface that demonstrates robust financial transaction flows, role-based permissions, and fraud prevention mechanisms without introducing high client-side latency.",
-        approach:
-          "Engineered a full-stack MERN banking ecosystem with protected API endpoints, JWT-based session security, and Bcrypt password hashing. Implemented simulated atomic fund transfer logic with double-entry balance verification to prevent race conditions. Designed an interactive banking dashboard with real-time balance charts, beneficiary management, and instant transfer receipt generation.",
-        challenges: [
-          "Ensuring transaction integrity across simulated simultaneous debit and credit operations",
-          "Designing an intuitive, responsive fintech interface with strict input validation and card number formatting",
-          "Implementing tamper-evident audit logging for all account transactions and authentication attempts",
-        ],
-        outcome:
-          "A live fintech banking web application deployed at swiss-bank-zeta.vercel.app with instant fund transfers, 256-bit security visualizers, and responsive account analytics.",
-        lessons:
-          "Financial architectures require strict transactional consistency and server-side balance validation at every stage to prevent state desynchronization.",
       },
     },
   ],

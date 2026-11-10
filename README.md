@@ -77,20 +77,17 @@ This repository houses the source code for my personal engineering portfolio. Un
 
 ## 📁 Featured Projects
 
-1. **[Swiss Bank](https://swiss-bank-zeta.vercel.app/)** ([GitHub Repo](https://github.com/surajsinghania11292/Swiss_Bank))  
-   *Security-focused fintech digital banking web application with 256-bit AES encryption, MFA vault authentication, atomic fund transfers, double-entry ledger, and row-level locking.*
+1. **[TrainTravel](https://github.com/surajsinghania11292/TrainTravel)** ([GitHub Repo](https://github.com/surajsinghania11292/TrainTravel)) — *Flagship Architecture*  
+   *Production-grade microservices railway ticketing platform built with 8 decoupled services, Saga distributed transaction choreography, Redis distributed seat locks with TTL auto-expiry, Apache Kafka event streams, and Elasticsearch.*
 
-2. **[TrainTravel](https://github.com/surajsinghania11292/TrainTravel)** ([GitHub Repo](https://github.com/surajsinghania11292/TrainTravel))  
-   *Production-grade microservices railway ticketing platform built with Fastify Gateway, Saga distributed transactions, Redis seat locks, Apache Kafka, and Elasticsearch.*
+2. **[Swiss Bank](https://swiss-bank-99.vercel.app/)** ([GitHub Repo](https://github.com/surajsinghania11292/Swiss_Bank))  
+   *Security-focused fintech digital banking web application with 256-bit AES encryption, MFA vault authentication, atomic fund transfers, double-entry balance verification, and tamper-evident audit logs.*
 
-3. **[NoShare](https://no-share.vercel.app)** ([GitHub Repo](https://github.com/surajsinghania11292/NoShare))  
-   *Serverless peer-to-peer file transfer platform using WebRTC data channels — zero server storage, 64KB chunked binary streaming, and direct-to-disk File System Access API writing.*
+3. **[NoShare](https://noshare.onrender.com)** ([GitHub Repo](https://github.com/surajsinghania11292/NoShare))  
+   *Serverless peer-to-peer file transfer platform using WebRTC data channels — zero server storage, 60% lower latency, and custom Express.js signaling with in-memory IP rate limiting.*
 
-4. **[Chat-App](https://chat-app-nl36.onrender.com)** ([GitHub Repo](https://github.com/surajsinghania11292/Chat-App))  
-   *Real-time MERN messaging ecosystem with Socket.io, Docker containerization, Clerk Webhooks, and ImageKit media optimization.*
-
-5. **[Personal Portfolio](https://suraj-portfolio-99.vercel.app/)** ([GitHub Repo](https://github.com/surajsinghania11292/Suraj_Portfolio))  
-   *High-performance developer portfolio scoring 95+ on Google Lighthouse with dark/light/terminal themes and an integrated Gemini assistant.*
+4. **[Personal Portfolio](https://suraj-portfolio-99.vercel.app/)** ([GitHub Repo](https://github.com/surajsinghania11292/Suraj_Portfolio))  
+   *High-performance developer portfolio scoring 95+ on Google Lighthouse with dark/light/terminal themes, luxury Swiss-minimalist styling, and an integrated Gemini assistant.*
 
 ---
 

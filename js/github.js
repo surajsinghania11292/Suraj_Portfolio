@@ -178,8 +178,8 @@ const GitHub = (() => {
         },
         {
           type: "PushEvent",
-          repo: "Chat-App",
-          msg: "real-time message sync with Socket.io and Clerk",
+          repo: "Swiss_Bank",
+          msg: "hardened 256-bit AES encryption and atomic fund transfers",
           time: "recently",
         },
       ];

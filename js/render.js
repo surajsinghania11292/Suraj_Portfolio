@@ -230,7 +230,7 @@ const Renderer = (() => {
             <path class="ph-check" style="animation-delay:0.35s" d="M184 166 l4 5 l9 -10"/>
           </g>
         </svg>
-        <a class="ph-live" href="https://swiss-bank-zeta.vercel.app/" target="_blank" rel="noopener noreferrer">▶ View live app</a>
+        <a class="ph-live" href="https://swiss-bank-99.vercel.app" target="_blank" rel="noopener noreferrer">▶ View live app</a>
       </div>`;
       const BANK_HERO = SWISS_BANK_HERO;
 
@@ -411,7 +411,7 @@ const NOSHARE_HERO = `
           <circle class="pf-badge-sm" cx="178" cy="172" r="10"/>
           <path class="ph-check" d="M173 172 l3 4 l7 -8"/>
         </svg>
-        <a class="ph-live" href="https://no-share.vercel.app" target="_blank" rel="noopener noreferrer">▶ View live app</a>
+        <a class="ph-live" href="https://noshare.onrender.com" target="_blank" rel="noopener noreferrer">▶ View live app</a>
       </div>`;
 
 const POLICE_HERO = `

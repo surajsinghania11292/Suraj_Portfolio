@@ -28,9 +28,6 @@
     // 6. Fetch GitHub activity (async, non-blocking)
     GitHub.init();
  
-    // 7. Typing animation in hero
-    initTyping();
- 
     console.info(
       '%cSuraj Kumar — Portfolio%c\n' +
       'Built with vanilla HTML/CSS/JS.\n' +
