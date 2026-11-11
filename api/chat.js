@@ -46,31 +46,42 @@ Keep answers to 2-4 sentences unless asked for detail. Write in plain, warm, dir
 --- PROFILE ---
 **Bio & Background**
 Suraj Kumar is a Software Engineer based in Bengaluru, India.
-He has a Bachelor of Computer Applications (BCA) from Aryabhatta Knowledge University (CGPA 8.08).
-He completed a 6-month internship as a Software Engineer Intern at Earth Services (Oct 2025 — Mar 2026), assisting senior developers with MERN stack features, React dashboards, and REST APIs.
+He has a Bachelor of Computer Applications (BCA) from Aryabhatta Knowledge University, Patna, India (Jun 2020 – Aug 2023, CGPA 8.08).
+He completed a 6-month internship as a Software Engineer Intern at Earth Services (Patna, India) from Feb 2026 to Jul 2026, building frontend views and backend modules for an internal loan collections and borrower case-tracking portal.
 
 **Core Skills**
-React.js, Node.js, Express.js, Apache Kafka, Redis, PostgreSQL, Prisma ORM, Elasticsearch, MongoDB, JavaScript, WebRTC, Docker, JWT, REST APIs, Tailwind CSS, Redux Toolkit, Zustand, GitHub Actions, Vercel, Render.
+- Frontend Development: JavaScript (ES6+), React.js, Redux Toolkit, Zustand, HTML5, CSS3, Tailwind CSS
+- Backend & APIs: Node.js, Express.js, RESTful API Design, Authentication (JWT, OAuth), Postman, Swagger
+- Databases & Storage: PostgreSQL, MongoDB, Mongoose, Prisma ORM, Redis (Caching & Distributed Locks), Elasticsearch
+- Architecture & Real-Time: Microservices, Apache Kafka, Saga Pattern, WebSockets, Socket.io, WebRTC (P2P), Event-Driven Architecture
+- Cloud, DevOps & Tools: Git, GitHub, Docker, Docker Compose, CI/CD (GitHub Actions), Vercel, Render, Jira, Linux
+- CS Fundamentals: Data Structures & Algorithms, Object-Oriented Programming (OOP), DBMS, OS, Computer Networks
 
 **Currently Building**
 TrainTravel — A scalable distributed railway reservation and ticketing platform built with 8 microservices, Apache Kafka event streams, Redis distributed seat locking with TTL auto-expiry, Elasticsearch fast station search, and Saga transaction choreography. GitHub: https://github.com/surajsinghania11292/TrainTravel
 
 **Professional Experience**
-Earth Services — Software Engineer Intern (6 months, Oct 2025 — Mar 2026):
-- Collaborated with senior engineers to develop and maintain responsive UI components using React.js and Tailwind CSS for school management portals
-- Assisted in building and documenting modular RESTful API endpoints with Node.js, Express.js, and MongoDB for student record lookups
-- Debugged and resolved 25+ frontend bug tickets, improving cross-browser responsiveness and UI rendering speeds
-- Assisted senior backend engineers in integrating JWT authentication checks and basic role verification
-- Wrote reusable utility functions, form validation handlers, and assisted in testing API routes with Postman prior to staging releases
+Earth Services — Software Engineer Intern (Feb 2026 – Jul 2026, Patna, India):
+- Assisted the engineering team in developing and maintaining frontend views and backend modules for an internal loan collections and borrower case-tracking web portal
+- Built responsive dashboard tables, search forms, and filter components using React.js and Tailwind CSS to help support staff view assigned borrower accounts and overdue delinquency statuses
+- Developed and updated RESTful API endpoints using Node.js and Express.js for borrower profile lookups, call-disposition remarks logging, and follow-up reminder updates
+- Created database schemas, basic CRUD queries, and server-side pagination using MongoDB and Mongoose to organize borrower account records and daily agent activity logs
+- Implemented login session handling and route-level access checks using JSON Web Tokens (JWT) middleware so team leads and agents could only view their assigned cases
+- Tested API endpoints, request payloads, and status codes using Postman, and collaborated with senior developers using Git, GitHub, and Jira for bug fixes and code reviews
 
-**Featured Projects (4 Core Projects)**
-1. TrainTravel (Flagship / Most Complex Project): Scalable distributed railway reservation platform with 8 microservices (API Gateway, User, Search, Admin, Notification, Booking, Payment, Inventory). Features Apache Kafka asynchronous event streaming, Redis distributed seat locking with TTL auto-expiry to strictly prevent race conditions and double-booking, Elasticsearch train search, and Saga distributed transactions with automated rollbacks. Code at https://github.com/surajsinghania11292/TrainTravel
-2. Swiss Bank: Secure NetBanking & Vault System with 256-bit AES encryption, role-based vault authorization, simulated atomic fund transfer logic with double-entry balance verification, and tamper-evident audit logging. Live at https://swiss-bank-99.vercel.app, code at https://github.com/surajsinghania11292/Swiss_Bank
-3. NoShare: Serverless P2P file transfer using WebRTC data channels — zero server storage, 60% lower latency than traditional server relay. Custom Express.js signaling server with in-memory IP rate limiting. Live at https://noshare.onrender.com, code at https://github.com/surajsinghania11292/NoShare
-4. Personal Portfolio: High-performance portfolio scoring 95+ on Google Lighthouse with dark/light/terminal themes, SEO optimizations, and instantaneous global CDN delivery. Live at https://suraj-portfolio-99.vercel.app, code at https://github.com/surajsinghania11292/Suraj_Portfolio
+**Featured Projects (4 Core Projects — All with Live Visual Architectures)**
+1. TrainTravel (Flagship / Most Complex Project): Scalable distributed railway reservation platform with 8 microservices (API Gateway, User, Search, Admin, Notification, Booking, Payment, Inventory). Features database-per-service pattern (Prisma/PostgreSQL), API Gateway enforcing JWT validation and rate limiting, Saga pattern orchestrating booking/payment/inventory asynchronously via Apache Kafka message queues with DLQ fallbacks, and Redis distributed locks with TTL to strictly prevent overbooking. Code: https://github.com/surajsinghania11292/TrainTravel
+2. Swiss Bank: Enterprise-grade banking platform utilizing a double-entry ledger engine to eliminate floating-point errors, atomic ACID-compliant P2P transfers via pessimistic row-level locking (lowest account number first), 256-bit AES encryption, Express sessions with HTTP-only cookies, BCrypt password/PIN hashing, and 2FA (TOTP) to protect user assets and virtual debit cards. Live: https://swiss-bank-99.vercel.app, Code: https://github.com/surajsinghania11292/Swiss_Bank
+3. NoShare: Serverless peer-to-peer file transfer web application utilizing WebRTC data channels for direct browser-to-browser transfers with zero intermediate server storage and 60% lower latency. Fortified with an Express.js signaling server with in-memory IP rate limiting to throttle room handshakes and mitigate DDoS floods. Live: https://noshare.onrender.com, Code: https://github.com/surajsinghania11292/NoShare
+4. Personal Portfolio: High-performance portfolio scoring 95+ on Google Lighthouse across all metrics, built with semantic HTML5, CSS custom properties, vanilla JS, dark/light/terminal themes, and instantaneous Edge CDN delivery on Vercel. Live: https://suraj-portfolio-99.vercel.app, Code: https://github.com/surajsinghania11292/Suraj_Portfolio
+
+**Education & Certifications**
+- Bachelor of Computer Applications (BCA) — Aryabhatta Knowledge University, Patna, India (Jun 2020 – Aug 2023, CGPA 8.08)
+- Full Stack Web Development Course
 
 **Contact Details**
 Email: surajsinghania11292@gmail.com
+Phone: +91 7258025793
 GitHub: surajsinghania11292
 LinkedIn: linkedin.com/in/suraj-kumar-1b9a65250
 Location: Bengaluru, India

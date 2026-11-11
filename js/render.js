@@ -1184,14 +1184,17 @@ const SNAPURL_HERO = `
           }
         </div>`;
       const visual = HERO_VISUALS[p.id];
+      const isFlagship = p.id === "traintravel";
+      const ribbonText = p.ribbon || (isFlagship ? "★ Flagship · Most Complex Project" : "★ Featured");
       const body =
         p.hero && visual
-          ? `<span class="ph-ribbon" aria-hidden="true">★ Featured</span>${visual}<div class="ph-content">${inner}</div>`
+          ? `<span class="ph-ribbon" aria-hidden="true">${ribbonText}</span>${visual}<div class="ph-content">${inner}</div>`
           : inner;
       const cls =
         "project-card" +
         (p.featured ? " project-card--featured" : "") +
         (p.hero ? " project-card--hero" : "") +
+        (isFlagship ? " project-card--flagship" : "") +
         (p.demo ? " project-card--has-demo" : "");
       return `<div class="${cls}" data-reveal="fade-up" data-repo="${p.repo || ""}">${body}</div>`;
     }

@@ -167,6 +167,29 @@
 /* star-glyph fallback so ★/◆ never render as tofu boxes */
 .ph-ribbon, .ph-badge, .star-count { font-family: var(--font-mono), "Segoe UI Symbol", "Apple Color Emoji", sans-serif; }
 
+/* ── Flagship Project Standout Accent ───────────────────────── */
+.project-card--flagship {
+  border-width: 1.5px;
+  border-color: var(--accent);
+  box-shadow: 0 4px 28px -4px rgba(0, 71, 67, 0.25);
+  position: relative;
+}
+.project-card--flagship .ph-ribbon {
+  background: linear-gradient(135deg, var(--accent) 0%, #00877a 100%);
+  color: #fff;
+  font-weight: 700;
+  letter-spacing: 0.05em;
+  padding: 0.35rem 3rem;
+}
+[data-theme="dark"] .project-card--flagship {
+  border-color: var(--accent);
+  box-shadow: 0 4px 32px -4px rgba(230, 199, 156, 0.2);
+}
+[data-theme="dark"] .project-card--flagship .ph-ribbon {
+  background: linear-gradient(135deg, var(--accent) 0%, #c49d68 100%);
+  color: #0F2F2F;
+}
+
 /* ══════════════════════════════════════════════════════════════
    STUDENT MANAGEMENT SYSTEM — registrar-card hero animation
    Namespaced `sm-`. Shares ph-visual/ph-badge/ph-live/ph-outline/

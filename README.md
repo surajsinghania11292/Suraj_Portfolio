@@ -81,7 +81,7 @@ This repository houses the source code for my personal engineering portfolio. Un
    *Production-grade microservices railway ticketing platform built with 8 decoupled services, Saga distributed transaction choreography, Redis distributed seat locks with TTL auto-expiry, Apache Kafka event streams, and Elasticsearch.*
 
 2. **[Swiss Bank](https://swiss-bank-99.vercel.app/)** ([GitHub Repo](https://github.com/surajsinghania11292/Swiss_Bank))  
-   *Security-focused fintech digital banking web application with 256-bit AES encryption, MFA vault authentication, atomic fund transfers, double-entry balance verification, and tamper-evident audit logs.*
+   *Enterprise-grade banking platform utilizing a double-entry ledger engine, atomic ACID-compliant P2P transfers via pessimistic row-level locking, 256-bit AES encryption, Express session security, and 2FA (TOTP).*
 
 3. **[NoShare](https://noshare.onrender.com)** ([GitHub Repo](https://github.com/surajsinghania11292/NoShare))  
    *Serverless peer-to-peer file transfer platform using WebRTC data channels — zero server storage, 60% lower latency, and custom Express.js signaling with in-memory IP rate limiting.*
