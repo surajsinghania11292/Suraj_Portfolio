@@ -167,7 +167,7 @@ Suraj_Portfolio/
 - **Portfolio:** [suraj-portfolio-99.vercel.app](https://suraj-portfolio-99.vercel.app/)
 - **Email:** [surajsinghania11292@gmail.com](mailto:surajsinghania11292@gmail.com)
 - **GitHub:** [@surajsinghania11292](https://github.com/surajsinghania11292)
-- **LinkedIn:** [Suraj Kumar](https://www.linkedin.com/in/suraj-kumar-1b9a65250/)
+- **LinkedIn:** [Suraj Kumar](https://www.linkedin.com/in/suraj-kumar-57278244a)
 
 ---
 

@@ -24,7 +24,7 @@ const PORTFOLIO_DATA = {
     email: "surajsinghania11292@gmail.com",
     phone: "+91 7258025793",
     github: "https://github.com/surajsinghania11292",
-    linkedin: "https://www.linkedin.com/in/suraj-kumar-1b9a65250/",
+    linkedin: "https://www.linkedin.com/in/suraj-kumar-57278244a",
     location: "Bengaluru, India",
   },
 

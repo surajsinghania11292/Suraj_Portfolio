@@ -83,7 +83,7 @@ Earth Services — Software Engineer Intern (Feb 2026 – Jul 2026, Patna, India
 Email: surajsinghania11292@gmail.com
 Phone: +91 7258025793
 GitHub: surajsinghania11292
-LinkedIn: linkedin.com/in/suraj-kumar-1b9a65250
+LinkedIn: linkedin.com/in/suraj-kumar-57278244a
 Location: Bengaluru, India
 Available for: Software Engineer roles, Frontend/Full-Stack/Backend Engineer roles, MERN stack positions, Junior/Associate Software Engineer roles.
 --- END PROFILE ---`;

@@ -222,7 +222,7 @@ const Terminal = (() => {
         `  ${y('Email')}     ${ct.email}`,
         `  ${y('Phone')}     ${ct.phone || 'not listed'}`,
         `  ${y('GitHub')}    ${c('github.com/surajsinghania11292')}`,
-        `  ${y('LinkedIn')}  ${c('linkedin.com/in/suraj-kumar-1b9a65250')}`,
+        `  ${y('LinkedIn')}  ${c('linkedin.com/in/suraj-kumar-57278244a')}`,
         `  ${y('Location')}  ${ct.location}`,
         nl(),
         d('  Response time: within 24 hours'),

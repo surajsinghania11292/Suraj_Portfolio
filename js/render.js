@@ -1498,7 +1498,7 @@ const SNAPURL_HERO = `
       },
       {
         icon: `<svg viewBox="0 0 24 24" fill="currentColor" width="18" height="18"><path d="M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-2-2 2 2 0 00-2 2v7h-4v-7a6 6 0 016-6zM2 9h4v12H2z"/><circle cx="4" cy="4" r="2"/></svg>`,
-        label: "linkedin.com/in/suraj-kumar-1b9a65250",
+        label: "linkedin.com/in/suraj-kumar-57278244a",
         href: d.linkedin,
         external: true,
       },
